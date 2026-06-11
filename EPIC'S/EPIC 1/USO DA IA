@@ -1,0 +1,40 @@
+🧠 Uso da Inteligência Artificial (KNN) no EcoConta
+🎯 Objetivo
+
+A Inteligência Artificial baseada no algoritmo K-Nearest Neighbors (KNN) será utilizada no EcoConta para classificar o perfil de consumo dos usuários e gerar recomendações personalizadas com foco na redução do consumo de água e energia.
+
+📊 Dados Utilizados
+
+Serão utilizados como entrada:
+
+Consumo de água (mensal)
+Consumo de energia (mensal)
+Histórico de consumo do usuário
+
+A base de treinamento conterá registros com diferentes níveis de consumo, classificados em:
+
+Econômico
+Moderado
+Alto consumo
+⚙️ Funcionamento do KNN
+O usuário insere seus dados de consumo no aplicativo
+O sistema compara esses dados com a base histórica
+São identificados os K vizinhos mais próximos
+A classe mais frequente define o perfil do usuário
+O sistema retorna a classificação final
+🔗 Integração com o Sistema
+
+A IA será integrada ao aplicativo da seguinte forma:
+
+Após o cadastro de consumo, os dados são enviados para análise
+O algoritmo KNN processa as informações
+O resultado é exibido na tela de relatórios
+O sistema gera recomendações automáticas baseadas no perfil identificado
+💡 Resultado Esperado
+
+Com a aplicação do KNN, o sistema será capaz de:
+
+Classificar automaticamente o perfil de consumo
+Identificar padrões de uso
+Gerar recomendações de economia de água e energia
+Auxiliar o usuário na adoção de hábitos mais sustentáveis
