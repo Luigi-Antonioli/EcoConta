@@ -1,0 +1,42 @@
+1. Requisitos do Produto (Aplicativo)
+O sistema deve ser um aplicativo móvel funcional
+O usuário deve conseguir registrar consumo de água
+O usuário deve conseguir registrar consumo de energia
+O sistema deve armazenar e recuperar dados de consumo
+O sistema deve exibir histórico de consumo
+O sistema deve apresentar gráficos ou relatórios de consumo
+
+2. Inteligência Artificial (Obrigatório)
+O sistema deve utilizar uma técnica de IA
+A técnica escolhida deve ser o K-Nearest Neighbors (KNN)
+O sistema deve:
+Classificar o perfil de consumo do usuário
+Gerar categorias (ex: econômico, médio, alto consumo)
+Produzir recomendações baseadas na classificação
+
+3. Modelagem e Engenharia de Software
+O sistema deve conter modelagem de estados da aplicação
+O sistema deve conter ou utilizar expressões regulares (Regex) para validação de dados
+Deve existir organização do fluxo do sistema (ex: cadastro → análise → relatório)
+
+4. Qualidade e Usabilidade
+A aplicação deve ter interface simples e intuitiva
+Os dados inseridos devem ser validados (evitar entradas inválidas)
+O sistema deve apresentar informações de forma clara (gráficos/relatórios)
+
+5. Gestão do Projeto (Jira)
+O projeto deve ser organizado em Epics e Tasks
+As tarefas devem representar o desenvolvimento real do sistema
+O andamento deve ser acompanhado no Kanban
+
+6. Documentação
+Atualização do resumo expandido
+Entrega dos anexos exigidos (Anexo 1 e Anexo 2)
+Registro de artefatos no Jira
+
+7. Apresentação (Vídeo)
+Vídeo de 3 a 5 minutos
+Demonstração do aplicativo funcionando
+Explicação da IA (KNN)
+Explicação da modelagem (estados/regex)
+Explicação do objetivo do sistema
