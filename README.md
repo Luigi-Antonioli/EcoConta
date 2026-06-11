@@ -113,7 +113,7 @@ EcoConta/
 ## 👨‍💻 Autores
 
 * Luigi Biagio Antonioli
-* 
+* Francisco Guilherme Soares dos Santos
 
 ---
 
