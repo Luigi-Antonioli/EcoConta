@@ -1,51 +1,124 @@
-🌱 EcoConta IA
+# EcoConta 💧⚡
 
-Aplicativo móvel para registro e análise de consumo de água e energia, utilizando Inteligência Artificial (K-Nearest Neighbors - KNN) para classificação de perfis de consumo e geração de recomendações personalizadas.
+**Aplicativo inteligente para monitoramento de consumo de água e energia residencial**
 
-📌 1. Requisitos do Produto (Aplicativo)
-O sistema deve ser um aplicativo móvel funcional
-O usuário deve conseguir registrar consumo de água
-O usuário deve conseguir registrar consumo de energia
-O sistema deve armazenar e recuperar dados de consumo
-O sistema deve exibir histórico de consumo
-O sistema deve apresentar gráficos ou relatórios de consumo
-🤖 2. Inteligência Artificial (Obrigatório)
+---
 
-O sistema deve utilizar uma técnica de Inteligência Artificial.
+## 📌 Sobre o Projeto
 
-Técnica escolhida:
-K-Nearest Neighbors (KNN)
-Funcionalidades da IA:
-Classificar o perfil de consumo do usuário
-Gerar categorias de consumo:
-Econômico
-Médio consumo
-Alto consumo
-Produzir recomendações baseadas na classificação
-🧠 3. Modelagem e Engenharia de Software
-O sistema deve conter modelagem de estados da aplicação
-O sistema deve utilizar expressões regulares (Regex) para validação de dados
-Deve existir um fluxo organizado do sistema, como:
-Cadastro → Registro de consumo → Análise por IA → Relatórios
-🎨 4. Qualidade e Usabilidade
-Interface simples e intuitiva
-Validação de dados de entrada (evitar dados inválidos)
-Apresentação clara das informações
-Gráficos
-Relatórios
-📊 5. Gestão do Projeto (Jira)
-O projeto deve ser organizado em Epics e Tasks
-As tarefas devem representar o desenvolvimento real do sistema
-O progresso deve ser acompanhado via Kanban
-📚 6. Documentação
-Atualização do resumo expandido do projeto
-Entrega dos anexos obrigatórios:
-Anexo 1
-Anexo 2
-Registro de artefatos no Jira
-🎥 7. Apresentação (Vídeo)
-Duração: 3 a 5 minutos
-Demonstração do aplicativo funcionando
-Explicação da IA (KNN)
-Explicação da modelagem (estados e Regex)
-Explicação do objetivo do sistema
+O **EcoConta** é um aplicativo móvel desenvolvido com o objetivo de auxiliar usuários no monitoramento do consumo de água e energia em residências. A aplicação permite o registro manual de dados de consumo, análise de padrões e geração de recomendações personalizadas para incentivar hábitos mais sustentáveis.
+
+O projeto também aplica conceitos de **Inteligência Artificial (KNN)**, além de técnicas de validação de dados e modelagem de estados.
+
+---
+
+## 🎯 Objetivos
+
+* Monitorar o consumo de água e energia
+* Exibir histórico e gráficos de consumo
+* Classificar o perfil de consumo do usuário utilizando IA
+* Gerar recomendações de economia e sustentabilidade
+* Promover conscientização ambiental baseada em dados
+
+---
+
+## 🧠 Inteligência Artificial
+
+O projeto utiliza o algoritmo **K-Nearest Neighbors (KNN)** para:
+
+* Classificar o perfil de consumo do usuário:
+
+  * Econômico
+  * Moderado
+  * Alto consumo
+* Gerar recomendações personalizadas com base em dados históricos
+* Identificar padrões de desperdício ou eficiência
+
+---
+
+## 🧩 Funcionalidades
+
+* Cadastro de consumo de água
+* Cadastro de consumo de energia
+* Histórico de consumos
+* Gráficos e relatórios de análise
+* Classificação automática com IA (KNN)
+* Recomendações sustentáveis
+* Sistema de metas de economia
+
+---
+
+## 🔍 Validações e Engenharia
+
+* Validação de entradas com **Expressões Regulares (Regex)**
+* Modelagem de estados da aplicação:
+
+  * Cadastro → Análise → Relatório → Recomendação
+* Controle de fluxo da aplicação baseado em estados
+* Tratamento de dados inválidos
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Java / React Native (ou tecnologia usada no projeto)
+* Banco de dados local (SQLite / H2)
+* Algoritmo KNN (IA)
+* Regex para validação de dados
+* GitHub para versionamento
+* Jira para gerenciamento de tarefas
+
+---
+
+## 📊 Organização do Projeto
+
+O desenvolvimento foi gerenciado utilizando metodologia Kanban no Jira, com divisão em:
+
+* Planejamento
+* Interface do usuário
+* Persistência de dados
+* Inteligência artificial
+* Validações
+* Testes e entrega final
+
+---
+
+## 🎥 Demonstração
+
+O projeto inclui um vídeo de apresentação demonstrando:
+
+* Funcionamento do aplicativo
+* Inserção de dados de consumo
+* Classificação com IA
+* Geração de relatórios
+* Explicação das tecnologias utilizadas
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+EcoConta/
+│
+├── src/
+├── database/
+├── components/
+├── screens/
+├── services/
+└── README.md
+```
+
+---
+
+## 👨‍💻 Autores
+
+* Luigi Biagio Antonioli
+* 
+
+---
+
+## 📌 Observações
+
+Este projeto foi desenvolvido como parte de uma atividade acadêmica, com foco em engenharia de software, inteligência artificial e desenvolvimento mobile.
+
+---
