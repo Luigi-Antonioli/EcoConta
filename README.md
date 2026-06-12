@@ -95,21 +95,6 @@ O projeto inclui um vídeo de apresentação demonstrando:
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-EcoConta/
-│
-├── src/
-├── database/
-├── components/
-├── screens/
-├── services/
-└── README.md
-```
-
----
-
 ## 👨‍💻 Autores
 
 * Luigi Biagio Antonioli
