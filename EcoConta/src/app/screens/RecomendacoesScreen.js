@@ -9,8 +9,6 @@ import {
 } from 'react-native';
 import { router } from 'expo-router';
 
-//  BASE DE TREINAMENTO DO KNN
-
 const BASE_TREINAMENTO = [
     { agua: 6, energia: 80, perfil: 'Econômico' },
     { agua: 7, energia: 90, perfil: 'Econômico' },
@@ -27,9 +25,6 @@ const BASE_TREINAMENTO = [
 ];
 
 const K = 3;
-
-export default function RecomendacoesScreen() {
-    const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
     function distanciaEuclidiana(a, b) {
         return Math.sqrt(
@@ -107,7 +102,7 @@ export default function RecomendacoesScreen() {
     const CONSUMO_ATUAL = { agua: 13, energia: 150 };
 
 
-    export default function RecomendacoesScreen({ navigation }) {
+    export default function RecomendacoesScreen() {
         const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
 
@@ -128,7 +123,7 @@ export default function RecomendacoesScreen() {
 
                 {/* HEADER */}
                 <View style={styles.header}>
-                    <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn}>
+                    <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
                         <Text style={styles.backText}>←</Text>
                     </TouchableOpacity>
                     <View style={{ flex: 1 }}>
@@ -478,4 +473,3 @@ export default function RecomendacoesScreen() {
             textAlign: 'center',
         },
     });
-}
